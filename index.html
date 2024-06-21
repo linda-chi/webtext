@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人介绍</title>
+    <link rel="stylesheet" href="./202221130173/css/style2.css">
+    <link rel="stylesheet" href="./202221130173/css/daohang.css">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-image: url('./202221130173/image/背景.png'); /* 替换为背景图片路径 */
+            background-size: cover; /* 保持背景图片覆盖整个屏幕 */
+            background-position: center; /* 将背景图片居中 */
+        }
+        table {
+            width: 50%;
+            height: 500px;
+            border-collapse: collapse;
+            margin-top: 170px;
+            float: right; /* 将表格浮动到右侧 */
+            margin-right: 80px;
+            box-shadow:10px 10px 10px 10px #abb5bd;
+            border-spacing:15px;
+            border-radius: 6%;
+            font-size: 24px;
+        }
+        tr{
+            background: linear-gradient(to right, #8A9D7B, #32600F);
+            background: linear-gradient(to right, #B8DB9D, #6EFF00);
+            background: linear-gradient(to right, #C1D6B2, #b2d6b4);
+            opacity: 0.8;
+        }
+        th, td {
+            border: 1px solid #abb5bd;
+            padding: 10px;
+           text-align:center;
+        }
+        th {
+            background-color: #81B45A;
+            border-radius: 20px;
+        }
+        td{
+            border-radius: 20px;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: -20px;
+        }
+        
+        .image-container .image-wrapper {
+            display: inline-block;
+            text-align: center;
+            margin: 80px;
+            margin-right: 10px; /* 设置图片之间的间隙 */
+        }
+
+        .image-container img {
+            margin: 0px;
+        }
+
+        .image-container div {
+            margin-top: 5px;
+        }
+         /* 修改轮播图容器的样式 */
+         #div1 {
+            top: 30px;
+            position: relative;
+            font-family: Arial;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: bold;
+            border-radius: 10px; /* 设置边框圆角 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+            outline: dashed 10px #8A9D7B;
+            border: 5px solid #b2d6b4; /* 修改轮播图容器的边框样式 */
+            width: 1500px; /* 设置轮播图容器的宽度 */
+            height: 250px; /* 设置轮播图容器的高度 */
+            margin: 20px auto 20px; /* 这里设置轮播图与边框的距离，修改第一个值即可调整上边距，第二个值即可调整右边距，第三个值即可调整下边距 */
+            overflow: hidden;
+        }
+        #div1 ul {
+            position: absolute;
+            left: 0;
+        }
+
+        #div1 ul li {
+            list-style: none;
+            width: 200px;
+            float: left;
+            padding: 30px;
+            height: 200px;
+        }
+
+        #div1 ul li img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        
+        <tr>
+            <th>姓名</th>
+            <td>迟润琳</td>
+        </tr>
+        <tr>
+            <th>性别</th>
+            <td>女</td>
+        </tr>
+        <tr>
+            <th>籍贯</th>
+            <td>山东省蓬莱市</td>
+        </tr>
+        <tr>
+            <th>政治面貌</th>
+            <td>共青团员</td>
+        </tr>
+        <tr>
+            <th>专业排名</th>
+            <td>12/75</td>
+        </tr>
+        <tr>
+            <th>联系方式</th>
+            <td>15163187503</td>
+        </tr>
+        <tr>
+            <th>爱好</th>
+            <td>跳舞、阅读</td>
+        </tr>
+    </table>
+    
+    <div class="text-container">
+        <nav>
+            <ul>
+                <li class="drop">
+                    <a href="index.html">个人介绍</a>
+                    <ul class="two">
+                        <li>
+                            <a href="个人简历.html">  详细介绍  </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="drop">
+                    <a href="荣誉展示.html">所获荣誉</a>
+                    <ul class="two">
+                        <li>
+                            <a href="荣誉简介.html">  荣誉介绍  </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- <li> <a href="所获荣誉.html">所获荣誉</a></li> -->
+                <li><a href="成长经历.html">成长历程</a></li>
+                <li><a href="留言板.html">留言板</a></li>
+            </ul>
+            </nav>
+    </div>
+    <img src="./202221130173/image/daohanglan (1).png" alt="New Image" class="new-image">
+    <img  src="./202221130173/image/1.jpg" alt="图片描述" class="main-image">
+    <div id="div1">
+        <ul>
+            <li> <img src="./202221130173/image/4.jpg" alt="图片描述" class="image1"></li>
+            <li> <img src="./202221130173/image/2.jpg" alt="图片描述" class="image4"></li>
+            <li> <img src="./202221130173/image/6.jpg" alt="图片描述" class="image3"></li>
+            <li> <img src="./202221130173/image/3.jpg" alt="图片描述" class="image2"></li>
+            <li> <img src="./202221130173/image/5.jpg" alt="图片描述" class="image4"></li>
+            <li> <img src="./202221130173/image/q.jpg" alt="图片描述" class="image4"></li>
+            <div style="clear: none;"></div>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        window.onload=function(){
+            var oDiv=document.getElementById('div1');
+            var oUl=oDiv.getElementsByTagName('ul')[0];
+            var aLi=oUl.getElementsByTagName('li');
+            var aA=document.getElementsByTagName('a');//获取向右向左的箭头
+            var timer=null;
+            var iSpeed=1; // 修改速度，可根据需要调整
+            oUl.innerHTML+=oUl.innerHTML;//定义图片可以循环播放
+            oUl.style.width=aLi.length*aLi[0].offsetWidth+'px';//定义外层ul的宽度，根据图片的个数和每个图片的宽度计算，保证总宽度是可调整的
+    
+            function fnMove(){
+                if(oUl.offsetLeft <= -oUl.offsetWidth/2){
+                    oUl.style.left = '0px'; // 当整个ul滚动到一半之后，立即将其left设置为0，实现无缝连接
+                } else {
+                    oUl.style.left = oUl.offsetLeft - iSpeed + 'px';
+                }
+            }
+            
+            timer=setInterval(fnMove,30);
+            
+            oDiv.onmouseover=function(){
+                clearInterval(timer);
+                //鼠标移动到图片上，清除定时器，停止运动
+            }
+            oDiv.onmouseout=function(){
+                timer=setInterval(fnMove,30);
+                //鼠标移出，重新开启定时器，重新运动
+            }
+        };
+    </script>
+    
+    
+</body>
+</html>
+

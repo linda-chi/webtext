@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./202221130173/css/daohang.css">
+    <link rel="stylesheet" href="./202221130173/css/liuyan.css">
+    <style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: url('./202221130173/image/背景.png'); /* 替换为背景图片路径 */
+        background-size: cover; /* 保持背景图片覆盖整个屏幕 */
+        background-position: center; /* 将背景图片居中 */    
+        height: fit-content;
+        width: fit-content;
+    }
+    </style>
+ </head>
+<body>
+  <div class="text-container">
+    <nav>
+        <ul>
+            <li class="drop">
+                <a href="index.html">个人介绍</a>
+                <ul class="two">
+                    <li>
+                        <a href="个人简历.html">  详细介绍  </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="drop">
+                <a href="荣誉展示.html">所获荣誉</a>
+                <ul class="two">
+                    <li>
+                        <a href="荣誉简介.html">  荣誉介绍  </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- <li> <a href="所获荣誉.html">所获荣誉</a></li> -->
+            <li><a href="成长经历.html">成长历程</a></li>
+            <li><a href="留言板.html">留言板</a></li>
+        </ul>
+        </nav>
+  </div>
+        <img src="./202221130173/image/daohanglan (1).png" alt="New Image" class="new-image">
+        <div id="contant"><table width="850" border="0">
+            <tr>
+              <td width="315" height="438"><img src="./202221130173/image/留言.jpg" width="248" height="300" /></td>
+              <td width="525" align="center"><span style="font-size: 22px; font-weight: bold;">留言板</span>
+                <table width="500" border="0">
+                  <tr>
+                    <td width="127" height="45">姓名：</td>
+                    <td colspan="2"><form id="form3" name="form3" method="post" action="">
+                      <label for="textfield"></label>
+                      <input type="text" name="textfield" id="textfield" />
+                    </form></td>
+                  </tr>
+                  <tr>
+                    <td height="45">性别：</td>
+                    <td colspan="2"><form id="form4" name="form4" method="post" action="">
+                      <input type="radio" name="radio" id="男" value="男" />
+                      男
+                      <input type="radio" name="radio" id="女" value="女" />
+                      <label for="女"></label>
+                      <label for="男"></label>
+                    女
+                    </form></td>
+                  </tr>
+                  <tr>
+                    <td height="45">身份证号：</td>
+                    <td colspan="2"><form id="form5" name="form5" method="post" action="">
+                      <label for="textfield2"></label>
+                      <input type="text" name="textfield2" id="textfield2" />
+                    </form></td>
+                  </tr>
+                  <tr>
+                    <td height="45">手机号：</td>
+                    <td colspan="2"><form id="form6" name="form6" method="post" action="">
+                      <label for="textfield3"></label>
+                      <input type="text" name="textfield3" id="textfield3" />
+                    </form></td>
+                  </tr>
+                  <tr>
+                    <td height="45">电子邮箱：</td>
+                    <td colspan="2"><form id="form7" name="form7" method="post" action="">
+                      <label for="textfield4"></label>
+                      <input type="text" name="textfield4" id="textfield4" />
+                    </form></td>
+                  </tr>
+                  <tr>
+                    <td height="92">留言：</td>
+                    <td colspan="2"><form id="form8" name="form8" method="post" action="">
+                      <label for="textarea"></label>
+                      <textarea name="textarea" id="textarea" cols="45" rows="5"></textarea>
+                    </form></td>
+                  </tr>
+                  <tr>
+                    <td height="46">&nbsp;</td>
+                    <td width="189"><form id="form1" name="form1" method="post" action="">
+                      <input type="submit" name="提交" id="提交" value="提交" />
+                    </form></td>
+                    <td width="270"><form id="form2" name="form2" method="post" action="">
+                      <input type="submit" name="重置" id="重置" value="重置" />
+                    </form></td>
+                  </tr>
+                </table></td>
+            </tr>
+          </table>
+</body>
+</html>
