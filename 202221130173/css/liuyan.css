@@ -1,0 +1,27 @@
+#box {
+	height: 850px;
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#top {
+	height: 250px;
+	width: 850px;
+}
+#nav {
+	height: 50px;
+	width: 850px;
+}
+#contant {
+	height: 500px;
+	width: 850px;
+    margin-top: 300px;
+    text-align: center;
+	margin-left: 300px;
+}
+#bottom {
+	text-align: center;
+	height: 40px;
+	width: 850px;
+	padding-top: 10px;
+}

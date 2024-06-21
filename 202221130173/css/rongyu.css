@@ -1,0 +1,121 @@
+.p1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-style: italic;
+}
+#all {
+    width: 75%;
+    height: 1000px;
+    margin: 0px 12.5% 0 12.5%;
+    background-color: #fff;
+    padding: 0;
+}
+
+#cont1 {
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+
+}
+
+#img1 {
+    width: 400%;
+    height: 650px;
+    /* 弹性盒子 */
+    display: flex;
+    /* animation，@keyframes 搭配使用  run为自定义名称，10s时间*/
+	animation: run 10s ease infinite;
+}
+
+#img1 img {
+    width: 100%;
+    height: 650px;
+
+}
+
+@keyframes run {
+	0%,30%{
+		/* margin-left: 0; */
+		transform: translatex(0%);
+	}
+	33%,60%{
+		/* margin-left: -1200px;; */
+		transform: translatex(-33.33333333%);
+	}
+	66%,90%{
+		/* margin-left: -2400px; */
+		transform: translatex(-66.666666666%);
+	}
+	100%{
+		/* margin-left: 0; */
+		transform: translatex(0%);
+	}
+}
+
+
+.smallimg1 {
+    width: 400px;
+    height: 250px;
+    margin: 0 25px 0 25px;
+}
+
+
+#cont2 {
+    width: 100%;
+}
+
+.font1 {
+    padding: 0 50px 0 0;
+}
+
+.font2 {
+    padding: 0 0 0 50px;
+}
+
+#cont2-1 {
+    display: flex;
+    /* 垂直居中 */
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    background: url(../image/rongyubeijing.png);
+    background-size: cover;
+    /* background-position: center; */
+}
+
+
+#cont2-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    background: url(../image/rongyubeijing.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#cont2-3 {
+    display: flex;
+    /* 垂直居中 */
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    background: url(../image/rongyubeijing.png);
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.big {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    /* padding: 70px; */
+    border-bottom: 2px solid black;
+    width: 500px;
+}
+

@@ -1,0 +1,51 @@
+.w {
+    float: left;
+    margin-top: 700px;
+    margin-left: 100px;
+}
+.banner {
+    width: 600px;
+    height: 450px;
+    position: relative;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    /* 隐藏超出得部分 */
+    overflow: hidden;
+}
+
+.banner .wrap {
+    width: 3000px;
+    height: 450px;
+    /* 弹性盒子 */
+    display: flex;
+    /* animation，@keyframes 搭配使用  run为自定义名称，10s时间*/
+	animation: run 10s ease infinite;
+}
+
+.banner .wrap .IMG {
+    width: 600px;
+    height: 450px;
+}
+
+
+
+/* 动画关键帧 */
+/* 以百分比来规定改变发生的时间，或者通过关键词 "from" 和 "to"，等价于 0% 和 100%。0% 是动画的开始时间，100% 动画的结束时间。 */
+@keyframes run {
+	0%,30%{
+		/* margin-left: 0; */
+		transform: translatex(0);
+	}
+	33%,60%{
+		/* margin-left: -1200px;; */
+		transform: translatex(-600px);
+	}
+	66%,90%{
+		/* margin-left: -2400px; */
+		transform: translatex(-1200px);
+	}
+	100%{
+		/* margin-left: 0; */
+		transform: translatex(0);
+	}
+}

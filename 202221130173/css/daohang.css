@@ -1,0 +1,68 @@
+.text-container {
+    position: absolute;
+    z-index: 3; /* 确保文本在图片上方显示 */
+    top: 0; /* 确保文本容器在图片的顶部 */ 
+    width: 100%;
+}
+    .new-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* 让图片按照原始尺寸显示 */
+    height: auto; /* 让图片按照原始尺寸显示 */
+    max-width: 100%; /* 设置图片最大宽度为页面宽度 */
+    z-index: 2;
+}
+.new-image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* 让图片按照原始尺寸显示 */
+    height: auto; /* 让图片按照原始尺寸显示 */
+    max-width: 100%; /* 设置图片最大宽度为页面宽度 */
+    z-index: 2;
+}
+nav {
+ background-color:#C1D6B2;
+ height: 50px;
+ width: 100%;
+
+}
+nav ul {
+ list-style-type: none;
+ padding: 8px 0px 5px 0px;
+ margin: 89px 0 0 0;
+ text-align: center; 
+}
+nav ul li {
+ display: inline;
+ padding: 20px 110px 5px 110px;
+}
+nav ul li a:link, nav ul li a:visited {
+ color: rgb(7, 116, 22);
+ border-bottom: none;
+ font-weight: bold;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: x-large;
+ text-decoration: none;
+}
+
+.two {
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: -45px;
+    left: 0px;
+    width: 100%;
+}
+.two a {
+    background-color:#C1D6B2;
+}
+
+.drop {
+    position: relative;
+}
+
+.drop:hover .two {
+    display: block;
+}
